@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1{
+    color: #FE1936;
+}
+
+form{
+    margin-top: 50px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
+}
+
+input{
+    height: 37px;
+    width: 240px;
+    padding: 10px;
+}
+
+button{
+    height: 37px;
+    color: white;
+    background-color: #D93F3F;
+    width: 140px;
+}
+
+@media screen and (max-width:460px){
+    .h2_home{
+        font-size: 21px;
+        text-align: center;
+    }
+    
+    .input_home{
+        width: 145px;
+    }
+}

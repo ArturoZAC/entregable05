@@ -1,0 +1,539 @@
+
+.container_gen{
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: -50px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.poke__img{
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    background-color: azure;
+    border-radius: 5px 5px 0 0;
+}
+
+.figure{
+    position: relative;
+    width: 250px;
+    bottom: 100px;
+    z-index: 10;
+    margin: 0 auto;
+}
+
+.container_img{
+    position: relative;
+    margin-bottom: -80px;
+}
+
+.text-id {
+    font-size: 24px;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 0 10px;
+}
+
+.line {
+    width: 250px; 
+    border-top: 2px solid #DBDBDB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.container_line{
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+
+.name{
+    font-size: 26px;
+}
+
+.info_poke{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.container_info{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.color_p{
+    color: #0F0F2D;
+}
+
+.container__skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.type__off{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.p__type{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.t__type{
+    font-size: 18px;
+    width: 125px;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.t__typesk{
+    font-size: 18px;
+    width: 137px;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+}
+
+/* COLORES TYPES */
+
+.grass.t__type{
+    background-color: #85C9C5;
+}
+
+.grass.poke__img{
+    background-image: linear-gradient(#85C9C5,#C6DF9F) !important;
+}
+
+.grass.text-id,
+.grass.name{
+    color: #406460;
+}
+
+
+.fire.t__type{
+    background-color: #E75C32;
+}
+
+.fire.poke__img{
+    background-image: linear-gradient(#E75C32,#E6901F) !important;
+}
+
+.fire.text-id,
+.fire.name{
+    color: #E75C35;
+}
+
+
+.water.t__type{
+    background-color: #388EFC;
+}
+
+.water.poke__img{
+    background-image: linear-gradient(#1461C5,#2C85F9) !important;
+}
+
+.water.text-id,
+.water.name{
+    color: #1479FB;
+}
+
+
+
+
+.bug.t__type{
+    background-color: #7FC870;
+}
+
+.bug.poke__img{
+    background-image: linear-gradient(#3BB139,#65CE63) !important;
+}
+
+.bug.text-id,
+.bug.name{
+    color: #4AB648;
+}
+
+
+.normal.t__type{
+    background-color: #98616D;
+}
+
+.normal.poke__img{
+    background-image: linear-gradient(#7E565E,#AB6574) !important;
+}
+
+.normal.text-id,
+.normal.name{
+    color: #735259;
+}
+
+
+.fighting.t__type{
+    background-color: #CB5132;
+}
+
+.fighting.poke__img{
+    background-image: linear-gradient(#A2442C,#C55133) !important;
+}
+
+.fighting.text-id,
+.fighting.name{
+    color: #95402A;
+}
+
+
+.poison.t__type{
+    background-color: #9665C5;
+}
+
+.poison.poke__img{
+    background-image: linear-gradient(#6C3D9A,#AE71EA) !important;
+}
+
+.poison.text-id,
+.poison.name{
+    color: #5B3184;
+}
+
+
+.ghost.t__type{
+    background-color: #4A4FAE;
+}
+
+.ghost.poke__img{
+    background-image: linear-gradient(#383C7E,#555BB8) !important;
+}
+
+.ghost.text-id,
+.ghost.name{
+    color: #323569;
+}
+
+
+.rock.t__type{
+    background-color: #9D9D9E;
+}
+
+.rock.poke__img{
+    background-image: linear-gradient(#8A8B90,#B1B1B4) !important;
+}
+
+.rock.text-id,
+.rock.name{
+    color: #7E7E7E;
+}
+
+
+.dark.t__type{
+    background-color: #2E2F2F;
+}
+
+.dark.poke__img{
+    background-image: linear-gradient(#060A09,#303432) !important;
+}
+
+.dark.text-id,
+.dark.name{
+    color: #030706;
+}
+
+
+.ice.t__type{
+    background-color: #99D4ED;
+}
+
+.ice.poke__img{
+    background-image: linear-gradient(#6AC3E8,#8FDAF9) !important;
+}
+
+.ice.text-id,
+.ice.name{
+    color: #6FBEDF;
+}
+
+
+.steel.t__type{
+    background-color: #819A91;
+}
+
+.steel.poke__img{
+    background-image: linear-gradient(#687D76,#8F9996) !important;
+}
+
+.steel.text-id,
+.steel.name{
+    color: #5E736C;
+}
+
+
+.dragon.t__type{
+    background-color: #66ACB6;
+}
+
+.dragon.poke__img{
+    background-image: linear-gradient(#4E969F,#4E97A1) !important;
+}
+
+.dragon.text-id,
+.dragon.name{
+    color: #478A93;
+}
+
+.fairy.t__type{
+    background-color: #AD3A61;
+}
+
+.fairy.poke__img{
+    background-image: linear-gradient(#AB2955,#C85D81) !important;
+}
+
+.fairy.text-id,
+.fairy.name{
+    color: #971B45;
+}
+
+
+.electric.t__type{
+    background-color: #4A51C7;
+}
+
+.electric.poke__img{
+    background-image: linear-gradient(#1C2398,#4F54BB) !important;
+}
+
+.electric.text-id,
+.electric.name{
+    color: #0C1395;
+}
+
+.ground.t__type{
+    background-color: #84560F;
+}
+
+.ground.poke__img{
+    background-image: linear-gradient(#754D10,#AF7929) !important;
+}
+
+.ground.text-id,
+.ground.name{
+    color: #654008;
+}
+
+
+
+.psychic.t__type{
+    background-color: #cbae0d;
+}
+
+.psychic.poke__img{
+    background-image: linear-gradient(#d5b203,#ead968) !important;
+}
+
+.psychic.text-id,
+.psychic.name{
+    color: #f0e32d;
+}
+
+
+/* STAT */
+
+.container_stat{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.p_stat_of{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.line_stat{
+    width: 500px; 
+    border-top: 2px solid #DBDBDB;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.stat_gen{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 77px;
+}
+
+.stat_p{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.stat__line_of{
+    height: 25px;
+    background-color: #F1F1F1;
+    margin-bottom: 30px;
+    margin: 5px 77px 20px 77px;
+    border-radius: 5px;
+    width: 550px;
+    position: relative;
+    border-radius: 5px 5px 5px 5px;
+    overflow: hidden;
+}
+
+.line_tt{
+    height: 100%;
+    background-image: linear-gradient(to right, #FBD473, #ECA437);
+    position: absolute;
+    z-index: 10;
+    border-radius: 5px 5px 5px 5px;
+
+}
+
+/* MOVEMENTS */
+.container__mov{
+    border: 0.5px solid rgb(255, 255, 255);
+    max-width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 100px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.list_mov{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0;
+}
+
+.container_statt{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 30px;   
+    margin-top: 50px;
+}
+
+.li_stat{
+    color: black;
+    background-color: #E5E5E5;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+.ddd{
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width:729px){
+    .container_gen{
+        max-width: 500px;
+    }
+
+    .stat__line_of{
+        width: 350px;
+        display: flex;
+    }
+
+    .line_stat{
+        width: 250px;
+    }
+
+    .line{
+        width: 110px;
+    }
+
+    .container__skills{
+        flex-direction: column;
+    }
+
+    .container__mov{
+        max-width: 500px;
+    }
+
+    .container_statt{
+        margin-bottom: 0px;
+    }
+
+    .list_mov{
+        gap: 10px;
+    }
+
+}
+
+
+@media screen and (max-width:530px){
+    .container_gen{
+        max-width: 340px;
+    }
+
+    .stat__line_of{
+        width: 200px;
+        display: flex;
+    }
+
+    .line_stat{
+        width: 150px;
+    }
+
+    .line{
+        width: 80px;
+    }
+
+    .container__skills{
+        flex-direction: column;
+    }
+
+    .container__mov{
+        max-width: 340px;
+    }
+
+    .container_statt{
+        margin-bottom: 10px;
+    }
+
+    .list_mov{
+        padding: 5px;
+        gap: 5px;
+    }
+
+    .li_stat{
+        padding: 5px 10px;
+    }
+
+}

@@ -1,0 +1,50 @@
+.pokedex{
+    padding-bottom: 25px;
+}
+
+.poke__header{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    gap: 10px;
+}
+
+.poke__header h3{
+    text-align: center;
+}
+
+.poke__header div{
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.poke__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.title{
+    font-size: 24px;
+}
+
+@media screen and (max-width:450px){
+    .input_poke{
+        width: 190px;
+    }
+    .input_pokee{
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:342px){
+    .input_poke{
+        width: 120px;
+    }
+    .input_pokee{
+        width: 90px;
+    }
+}

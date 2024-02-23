@@ -1,0 +1,12 @@
+.container__select{
+    margin-top: 50px;
+    height: 37px;
+    width: 300px;
+    padding: 0 15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+option{
+    font-size: 18px;
+    padding: 0 5px;
+}
